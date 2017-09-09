@@ -5,7 +5,6 @@ namespace CardCollection.Models
 {
     public class CardModel
     {
-        public Guid Id{ get; set; }
         public string Name { get; set; }
 	    public int HP { get; set; }
 		public string ImageUrl { get; set; }
